@@ -72,3 +72,9 @@ location /static/css/ {
  5. Go to terminal and type command ``sudo systemctl restart nginx``
  6. Now enter the command ``pm2 restart Portfolio``
  7. You can enter your domain! For example, ``your_domain.com/Portfolio``
+
+   * if You want this as module
+ 1. ``npm i turbo-portfolio``
+ 2. ``cd node_modules/turbo-portfolio``
+ 3. ``npm i``
+ 4. ``npm start``
